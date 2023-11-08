@@ -27,4 +27,5 @@ warmStrategyCache({
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // TODO: Implement asset caching
+// See folders 15 and 16 in the 19 PWA materials for examples....
 registerRoute();
